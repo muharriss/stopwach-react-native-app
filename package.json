@@ -7,11 +7,13 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "android-emulator": "cd C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\emulator && C:.\\emulator -avd Pixel_3a_API_34_extension_level_7_x86_64"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.73.5"
+    "react-native": "0.73.5",
+    "react-native-push-notification": "^8.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -3,7 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:usesCleartextTraffic="true"
-        tools:targetApi="28"
-        tools:ignore="GoogleAppIndexingWarning"/>
+    android:usesCleartextTraffic="true"
+    tools:targetApi="28"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <!-- Di sini tambahkan elemen receiver dan atur android:exported -->
+    <receiver
+        android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+        android:exported="true">
+        <!-- Atribut lainnya -->
+    </receiver>
+
+    </application>
 </manifest>

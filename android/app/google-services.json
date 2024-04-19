@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "195000738328",
+    "project_id": "push-notification-ca620",
+    "storage_bucket": "push-notification-ca620.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195000738328:android:6be4b055638eb895a5996d",
+        "android_client_info": {
+          "package_name": "com.stopwatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrVrpWcAS01fnMolzVHVAw71sEpPzEPgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
